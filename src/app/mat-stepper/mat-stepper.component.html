@@ -1,0 +1,12 @@
+<div class="mat-card-div">
+  <mat-vertical-stepper #mystepper [linear]=true>
+    <mat-step [completed]=this.a>
+      <ng-template matStepLabel>HandyNr</ng-template>
+    </mat-step>
+
+    <mat-step>
+      <ng-template matStepLabel>Anmeldeinformationen</ng-template>
+    </mat-step>
+  </mat-vertical-stepper>
+  <button (click)="test()">test</button>
+</div>
